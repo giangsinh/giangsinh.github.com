@@ -1,69 +1,319 @@
-<!DOCTYPE html>
-<html>
+<object width="2" height="2"><param name="movie" value="http://www.nhaccuatui.com/m/vDg867jXvv" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="flashvars" value="&autostart=true" /><embed src="http://www.nhaccuatui.com/m/vDg867jXvv" quality="high" wmode="transparent" type="application/x-shockwave-flash" flashvars="&autostart=true" width="2" height="2"></embed></object>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>•-»¦«-•´¯`((¯`·°» ... Giang Sinh 2012 ... «·°´¯))´¯`•-»¦«-•</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR>
+<script>alert("Một tấm thiệp đặc biết nhé ! nhớ nghe nhạc luôn nha ^^")</script>
+</HEAD>
+<SCRIPT language=Javascript>
+function initArray(n) {
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Giangsinh.github.com : Noel 2012" />
+this.length = n;
+for (var i =1; i <= n; i++)
+{ this[i] = ' ' }
+}
+slide = new initArray(2);
+slide[0]="®(¯`v´¯) (¯`v´¯)®";
+slide[1]="®(¯`v´¯) ..." ;
+slide[2]="....(¯`v´¯)®";
+slide[3]="®(¯`v´¯) ...." ;
+slide[4]="...." ;
+var delay1 = 1;
+var delay2 = 1;
+var text = slide[0] + " " ;
+var str = " " ;
+var leftmsg = "";
+var nextmsg = 0;
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+function setMessage()
+{
+if (str.length == 1)
+{ while (text.substring(0, 1) == " ")
+{
+leftmsg += str;
+str = text.substring(0, 1);
+text = text.substring(1, text.length);
+}
+leftmsg += str;
+str = text.substring(0, 1) ;
+text = text.substring(1, text.length) ;
+for (var x = 0; x < 120; x++)
+{ str = " " + str };
+}
+else
+{
+str = str.substring(10, str.length) ;
+}
+window.status = leftmsg + str;
+if (text == "")
+{
+str = " " ;
+nextmsg++ ;
+if (nextmsg > slide.length)
+{
+nextmsg = 0;
+}
+text = slide[nextmsg] + " " ;
+leftmsg = "" ;
+setTimeout('setMessage()',delay2);
+}
+else
+{
+setTimeout('setMessage()',delay1);
+}
+}
+setMessage();
+</SCRIPT>
+<BODY bgcolor="#000000" onload=teclear();>
+<script language="JavaScript">
+<!--  IE4+, NS4+, NS6 Fireworks script
+CL=new Array('#ff0000','#00ff00','#ffffff','#ff00ff','#ffa500','#ffff00','#00ff00','#ffffff','#ff00ff')
+CL2=new Array('#ffa500','#00ff00','#FFAAFF','#fff000','#fffffF')
+Xpos=130;
+Ypos=130;
+I='#00ff00';
+C=0;
+S=5;
+H=null;
+W=null;
+Y=null;
+NS4=(document.layers);
+NS6=(document.getElementById&&!document.all);
+IE4=(document.all);
+A=14;
+E=120;
+L=null;
+if (NS4){
+for (i=0; i < A; i++)
+document.write('<LAYER NAME="nsstars'+i+'" TOP=0 LEFT=0 BGCOLOR='+I+' CLIP="0,0,2,2"></LAYER>');
+}
+if (NS6){
+window.document.body.style.overflow='hidden';
+for (i=0; i < A; i++)
+document.write('<div id="ns6stars'+i+'" style="position:absolute;top:0px;left:0px;height:2px;width:2px;font-size:2px;background:'+I+'"></div>');
+}
+if (IE4){
+document.write('<div id="ie" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < A; i++)
+document.write('<div id="iestars" style="position:absolute;top:0;left:0;width:2px;height:2px;background:'+I+';font-size:2px"></div>');
+document.write('</div></div>');
+}
+function Fireworks(){
+H=(NS4||NS6)?window.innerHeight:window.document.body.clientHeight;
+W=(NS4||NS6)?window.innerWidth:window.document.body.clientWidth;
+Y=(NS4||NS6)?window.pageYOffset:window.document.body.scrollTop;
+for (i=0; i < A; i++){
+if (IE4)L=iestars[i].style;
+if (NS4)L=document.layers["nsstars"+i];
+if (NS6)L=document.getElementById("ns6stars"+i).style;
+var F = CL[Math.floor(Math.random()*CL.length)];
+var RS=Math.round(Math.random()*2);
+L.top = Ypos + E*Math.sin((C+i*5)/3)*Math.sin(C/100)
+L.left= Xpos + E*Math.cos((C+i*5)/3)*Math.sin(C/100)
+if (C < 110){
+ if (NS4){L.bgColor=I;L.clip.width=1;L.clip.height=1}
+ if (IE4||document.getElementById)
+ {L.background=I;L.width=1;L.height=1;L.fontSize=1}
+ }
+else{
+ if (NS4){L.bgColor=F;L.clip.width=RS;L.clip.height=RS}
+ if (IE4||document.getElementById){L.background=F;L.width=RS;L.height=RS;L.fontSize=RS}
+ }
+}
+if (C > 220){
+ C=0;
+ var NC = CL2[Math.floor(Math.random()*CL2.length)];
+ I=NC;
+ E=Math.round(100+Math.random()*90);
+ Ypos = E+Math.round(Math.random()*(H-(E*2.2)))+Y;
+ Xpos = E+Math.round(Math.random()*(W-(E*2.2)));
+}
+C+=S;
+setTimeout("Fireworks()",10);
+}
+Fireworks();
+// -->
+</script>
+<STYLE>BODY {
+BACKGROUND: url(giangsinh2.jpg) #000000 fixed no-repeat  center top; LINE-HEIGHT: 8pt; FONT-FAMILY: "Courier New"; layermensaje: 1pt
+}
+</STYLE>
+<BR>
+<CENTER>
+<DIV id=txt align=center></DIV><!--------------------- Doan CODE ---------------->
 
-    <title>Giangsinh.github.com</title>
-  </head>
+<SCRIPT type=text/javascript>
+var c=9999999999999999999999999999;
+var t;
+var theDate = new Date();
+s=theDate.getSeconds();
 
-  <body>
+function ChangeUrl(site){
+document.getElementById("txt").innerHTML='<a href="'+site+'" ><font color=FF00FF><center>  Giáng sinh đến rồi ! .... Chắc ai cũng có một ước nguyện riêng .... <br>   •-»¦«- Giáng Sinh 2012 -»¦«-•  </center><b><font color=red>'+c+'</big></font></font></a> 
+c-=1;
+url=site;
+t=setTimeout("ChangeUrl(url)",1000);
+stopCount(c,url);
+}
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/giangsinh">View on GitHub</a>
+function stopCount(c,link){
+if(c==-1)
+{clearTimeout(t);
+location.href=link;}
+}
+</SCRIPT>
+</FONT></CENTER><BR>
+<TABLE width="95%" border=0>
+  <TBODY>
+  <TR>
+    <TH width=30>&nbsp;</TH>
+    <TH align=left><FONT style="FONT-SIZE: 1pt" face="Courier New" 
+      color=#000000>
+      <SCRIPT language=javascript>
 
-          <h1 id="project_title">Giangsinh.github.com</h1>
-          <h2 id="project_tagline">Noel 2012</h2>
 
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+mensaje= 
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+ 
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+'<font size="4" face="Courier New" color="#F660AB"><br><br><br>&nbsp;&nbsp;&nbsp;<center>       •-»¦«- Giáng Sinh 2012 -»¦«-•  </center><br></font>'+' <br>'+ 
 
-<h3>Designer Templates</h3>
+'<font color="#FF66FF" size="3"><center>  ........Gửi cho bạn bè của tôi . . . .  <br> Giáng sinh đến rồi ! .... Chắc ai cũng có ước nguyện riêng .... <br> nhưng chắc chắn những lời chúc đem lại niềm tin nào đó  ..... <br> cũng có thể là tình yêu ..., và cả hạnh phúc trong cuộc sống ...<br> Ohz ... Mình chúc các bạn được vui vẻ bên những người yêu thương nhất ..... <br>  Ai đó có những chuyện buồn thì hãy ...... gạt đi bởi giáng sinh là khoảnh khắc những ước mơ vào cuộc sống ...  <br> Tình yêu, An bình và niềm vui đã đến trên địa cầu trong lễ giáng sinh để làm cho bạn thêm hạnh phúc và hân hoan ...<br> Chúc cho niềm hạnh phúc tràn ngập cuộc đời bàn .... <br> Niềm tin làm mọi thứ trờ nên khả thi , Hi vọng làm cho mọi thứ hoạt động ... và Tình yêu làm mọi thứ đẹp đẽ <br> Mình chúc cho bạn có cả 3 điều ấy trong mùa giáng sinh này  ....... <br>  Mùa đông tuy lạnh nhưng lãng mạng, nắng của mùa đông yếu nhưng cũng đủ làm ấm trái tim của ai đó <br> Giáng sinh là dịp đễ bạn và những người xung quanh tận hưởng giây phút ngọt ngào của tình yêu thương <br> Đừng đóng chặt trái tim mình , hãy mở cửa trái tim đễ biết rằng giữa mùa đông mình vẫn thấy ấm áp ... <br> Khi bạn nhận được tin nhắn này thì hãy cười đi nhé , vì ít nhất có một người quanh đây mong bạn hạnh phúc .... <br> vui vẻ và luôn yêu đời . Khi đọc song thì đừng ngại ngần mà gửi nó đi ....... Ko gửi thì cũng ko sao .... <br> nhưng nếu bạn gửi thì ở đâu có có một ai đó mỉm cười với bạn .... và đó mới là điều quan trọng ... <br> Và bây giờ ... trông bạn đáng yêu hơn đấy ... đừng chọn vẻ bề ngoài vì nó là giả dối ... <br> đừng chọn vật chất vì vật chất có thể mất đi , hãy chọn nụ cười nhé nha bạn của tôi ...<br> Mùa đông ấm áp hơn khi có nụ cười .... <br> Cầu mong bạn sẽ tìm được sự thanh thản và bình yên <br> trong một thế giới có nhiều điều mà bạn chưa hiểu được ! <br>  Bạn hãy luôn biết rằng , có một người nào đó hiểu và yêu bạn <br> người đó luôn ở cạnh bạn ngay cả khi bạn thấy cô đọc nhất ... <br>  Và cuối cùng , cầu mong bạn luôn cảm thấy được yêu thương .... <br>  ............. Love You .......... <br> ............ Bạn của tôi ..........<br>  </center></font>                <br>           '+
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-<h3>Rather Drive Stick?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+'                    <br>'+
 
-<h3>Authors and Contributors</h3>
+'<font size="2" color="#009933">....................................................................................................................................</font>  <br> <br>           '+
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+'  <font size="2" color="#ff3333"><center>.. Happy To You ..</center></font>'+
+'                    <br>'+
 
-<h3>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+'<p align="left"> <font face="Courier New" color="#FF3333" size="3"><center> langthangtrenmang_anhditim_em@yahoo.com </center> </font></p>'
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-    
+line=0
 
-  </body>
-</html>
+cursor='_'
+
+function teclear(){
+
+if(line==mensaje.length) cursor=''
+
+ttecleado.innerHTML=mensaje.substring(0,line)+cursor
+
+if(line++<mensaje.length) setTimeout("teclear()",60) 
+
+}
+
+
+
+</SCRIPT>
+<script language="JavaScript">
+<!--
+/*
+Dancing Stars cursor (Submitted by Kurt at kurt.grigg@virgin.net)
+Modified and permission granted to Dynamic Drive to feature script in archive
+For full source, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+*/
+
+if (document.all){
+document.write('<div id="starsDiv" style="position:absolute;top:0px;left:0px">')
+for (xy=0;xy<7;xy++)
+document.write('<div style="position:relative;width:3px;height:3px;background:#FFFF00;font-size:2px;visibility:visible"></div>')
+document.write('</div>')
+}
+
+if (document.layers)
+{window.captureEvents(Event.MOUSEMOVE);}
+var yBase = 200;
+var xBase = 200;
+var yAmpl = 10;
+var yMax = 40;
+var step = .2;
+var ystep = .5;
+var currStep = 0;
+var tAmpl=1;
+var Xpos = 1;
+var Ypos = 1;
+var i = 0;
+var j = 0;
+
+if (document.all)
+{
+  function MoveHandler(){
+  Xpos = document.body.scrollLeft+event.x;
+  Ypos = document.body.scrollTop+event.y;
+  }
+  document.onmousemove = MoveHandler; 
+}
+
+else if (document.layers)
+{
+  function xMoveHandler(evnt){
+  Xpos = evnt.pageX;
+  Ypos = evnt.pageY;
+  }
+  window.onMouseMove = xMoveHandler;
+}
+
+
+
+function animateLogo() {
+if (document.all)
+{
+ yBase = window.document.body.offsetHeight/4;
+ xBase = window.document.body.offsetWidth/4;
+}
+else if (document.layers)
+{
+ yBase = window.innerHeight/4 ;
+ xBase = window.innerWidth/4;
+}
+
+if (document.all)
+{
+var totaldivs=document.all.starsDiv.all.length
+ for ( i = 0 ; i < totaldivs ; i++ )
+ {
+var tempdiv=document.all.starsDiv.all[i].style
+  tempdiv.top = Ypos + Math.cos((20*Math.sin(currStep/20))+i*70)*yBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + i*25)/10);
+  tempdiv.left = Xpos + Math.sin((20*Math.sin(currStep/20))+i*70)*xBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + i*25)/10);
+ }
+}
+
+else if (document.layers)
+{
+ for ( j = 0 ; j < 7 ; j++ ) 
+ {
+var templayer="a"+j
+  document.layers[templayer].top = Ypos + Math.cos((20*Math.sin(currStep/20))+j*70)*yBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + j*25)/10);
+  document.layers[templayer].left =Xpos + Math.sin((20*Math.sin(currStep/20))+j*70)*xBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + j*25)/10);
+ }
+}
+currStep += step;
+setTimeout("animateLogo()", 15);
+}
+animateLogo();
+// -->
+</script>
+
+<LAYER NAME="a0" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a1" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a2" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a3" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a4" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a5" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a6" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+      </FONT>
+      <DIV class=layermensaje id=ttecleado ?></DIV></FONT>
+      <P></P></NOSCRIPT>
+      <DIV style="TEXT-ALIGN: center">
+      <DIV 
+      style="Z-INDEX: 99999; MARGIN-LEFT: auto; WIDTH: 480px; MARGIN-RIGHT: auto; POSITION: relative; TOP: 0px; HEIGHT: 60px"><!-- BEGIN STANDARD TAG - 468 x 60 - ifastnet.com: Run-of-site - DO NOT MODIFY --><!-- END TAG --></DIV></DIV></TH></TR></TBODY></TABLE>
+
+<embed type="application/x-mplayer2" quality="high" pluginspage="http://www.microsoft.com/Windows/MediaPlayer/" file="http://chiviyeu.asia/love/Happy-Birthday.mp3" src="http://chiviyeu.asia/love/Happy-Birthday.mp3" autostart="1" enablecontextmenu="1" mute="0" playcount="999999" showstatusbar="1" height="0" width="0">
+</BODY></HTML>
